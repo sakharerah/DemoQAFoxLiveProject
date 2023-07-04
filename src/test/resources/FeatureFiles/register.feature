@@ -1,7 +1,7 @@
 Feature:  Ragistration functionllity scenario
 
 @Register @One
-Scenario: Verify whether the user is able to ragiter into application by providing all the deatails.
+Scenario: Verify whether the user is able to register into application by providing all the deatails.
 	Given I launch the application
 	And I navigate to Account Registration page
 	When I fill all the below vaild deatils
