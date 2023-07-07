@@ -31,8 +31,8 @@ public class LoginPage {
 	
 	public static void DoLogin(String username, String password) {
 		
-		Elements.TypeText(LoginPage.EmailField, username);
-		Elements.TypeText(LoginPage.PasswordField, password);
-		Elements.click(LoginPage.LoginButton);
+		Elements.TypeText(EmailField, username);
+		Elements.TypeText(PasswordField, password);
+		Elements.click(LoginButton);
 	}
 }
